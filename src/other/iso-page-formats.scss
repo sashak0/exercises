@@ -4,15 +4,12 @@
       // outline: 1px solid black !important;
       &.portrait {
         width: #{$width}mm !important;
-
         height: #{$height}mm !important;
       }
 
       &.landscape {
         width: #{$height}mm !important;
-        &:not(.width-only) {
-          height: #{$width}mm !important;
-        }
+        height: #{$width}mm !important;
       }
     }
 
