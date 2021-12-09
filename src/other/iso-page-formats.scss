@@ -1,7 +1,6 @@
 @mixin page-formats-iso($type, $i, $width, $height, $max) {
   @if $i < $max {
     .page-format-#{$type}#{$i} {
-      // outline: 1px solid black !important;
       &.portrait {
         width: #{$width}mm !important;
         height: #{$height}mm !important;
